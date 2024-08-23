@@ -1,0 +1,96 @@
+* {
+  font-family: 'Rubik Mono One', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #34252f;
+}
+
+.todoItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  font-display: center;
+  padding: 14px;
+  border-radius:14px;
+  background-color:#A5CAB4;
+}
+
+.todo{
+  display: flex;
+  align-items: center;
+}
+
+.actionsContainer{
+  padding: 8px;
+}
+
+.todoList{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.addTask{
+  padding-top: 20px;
+  display: flex;
+  gap: 8px;
+}
+
+.addTask button{
+  padding: 4px;
+  color:#34252f;
+  background-color:#A5CAB4;
+  border-style: double;
+  border-color: #34252f;
+}
+
+.addTask button:hover{
+  cursor: pointer;
+  color:#A5CAB4;
+  background-color:#34252f;
+}
+
+.addTask input{
+  height: 30px;
+  padding: 4px;
+  border-style: double;
+  border-color: #34252f;
+  background-color: #A5CAB4;
+}
+
+.addTask input::placeholder{
+  color: #34252f;
+  opacity: 75%;
+}
+
+
+.actionsContainer button{
+  background: transparent;
+  border: none;
+  padding: 2px;
+  align-items: baseline;
+}
+
+.actionsContainer button:hover{
+  opacity: 75%;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  background: #3f6c51;
+  gap: 14px;
+}
