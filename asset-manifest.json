@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/alfosei/react-todolist-app/static/css/main.5b46c032.css",
+    "main.js": "/alfosei/react-todolist-app/static/js/main.5ef06d1e.js",
+    "index.html": "/alfosei/react-todolist-app/index.html",
+    "main.5b46c032.css.map": "/alfosei/react-todolist-app/static/css/main.5b46c032.css.map",
+    "main.5ef06d1e.js.map": "/alfosei/react-todolist-app/static/js/main.5ef06d1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b46c032.css",
+    "static/js/main.5ef06d1e.js"
+  ]
+}
