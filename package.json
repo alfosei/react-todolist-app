@@ -37,7 +37,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://github.com/alfosei/react-todolist-app",
+  "homepage": "https://alfosei.github.io/react-todolist-app",
   "devDependencies": {
     "gh-pages": "^6.2.0"
   }
